@@ -15,6 +15,12 @@ The resulting propensity score can be used to rank individuals according to thei
 
 ---
 
+> **Data Confidentiality**
+>
+> This project is based on real-world professional data. Due to confidentiality requirements, the original dataset and proprietary information are not included in this repository.
+
+---
+
 ## Business Problem
 
 The customer lifecycle can be summarized as:
