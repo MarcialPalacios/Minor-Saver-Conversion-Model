@@ -143,6 +143,41 @@ $$
 
 ---
 
+## Operational Implementation and Validation
+
+Following model development, the model was implemented on a subsequent population of former Minor Savers identified after reaching legal adulthood during the 2025 fiscal year.
+
+A total of **11,320 former Minor Savers** were evaluated by the model and classified according to their estimated propensity to become full members.
+
+Their model classifications were subsequently compared with membership records as of **December 2025**.
+
+### Implementation Results
+
+| Metric                                          |     Result |
+| ----------------------------------------------- | ---------: |
+| Former Minor Savers evaluated                   | **11,320** |
+| Former Minor Savers who became full members     |  **4,259** |
+| Observed conversion rate                        |  **37.6%** |
+| Actual converters identified as high propensity |   **>75%** |
+
+Among the 11,320 former Minor Savers evaluated, **4,259 subsequently became full members**, corresponding to an observed conversion rate of **37.6%**.
+
+More than **75% of the individuals who ultimately became full members had been previously classified by the model as having a high propensity to convert**.
+
+This result corresponds to a **recall/sensitivity above 75%** when the high-propensity classification is evaluated against the observed converters:
+
+$$
+Recall =
+\frac{\text{Actual converters classified as high propensity}}
+{\text{All actual converters}} >75\%
+$$
+
+This operational result complements the model-development metrics by showing that the model was subsequently applied to a real population and that its high-propensity segment captured a substantial proportion of the individuals who ultimately converted.
+
+Importantly, the **37.6% conversion rate is an observed outcome for the evaluated population**, not an estimate of the causal effect of the model or of any intervention based on it.
+
+---
+
 ## Key Findings
 
 ### Financial engagement
